@@ -106,10 +106,10 @@ public class AuthorizationManager {
                 Settings.Secure.ANDROID_ID);
 
         Bundle options = new Bundle();
-        String scope_data = "{\"alexa:all\":{\"productID\":\"" + mProductId +
-                "\", \"productInstanceAttributes\":{\"deviceSerialNumber\":\"" +
-                PRODUCT_DSN + "\"}}}";
-        options.putString(AuthzConstants.BUNDLE_KEY.SCOPE_DATA.val, scope_data);
+//        String scope_data = "{\"alexa:all\":{\"productID\":\"" + mProductId +
+//                "\", \"productInstanceAttributes\":{\"deviceSerialNumber\":\"" +
+//                PRODUCT_DSN + "\"}}}";
+//        options.putString(AuthzConstants.BUNDLE_KEY.SCOPE_DATA.val, scope_data);
 
         options.putBoolean(AuthzConstants.BUNDLE_KEY.GET_AUTH_CODE.val, true);
         options.putString(AuthzConstants.BUNDLE_KEY.CODE_CHALLENGE.val, getCodeChallenge());

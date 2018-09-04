@@ -5,5 +5,5 @@ package com.willblaschko.android.alexavoicelibrary.global;
  */
 
 public class Constants {
-    public static final String PRODUCT_ID = "Sample";
+    public static final String PRODUCT_ID = "Sample2";
 }
